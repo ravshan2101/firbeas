@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "27648018963",
+    "project_id": "fire-post-bbc75",
+    "storage_bucket": "fire-post-bbc75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27648018963:android:e07f8b509d55ac8af28de6",
+        "android_client_info": {
+          "package_name": "com.example.firbeas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27648018963-pvkld71oa324csa1j7u7u2iav01clgui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtSVNEdt-DSYodnV0bSKrYE69uLtA5rzw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27648018963-pvkld71oa324csa1j7u7u2iav01clgui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
