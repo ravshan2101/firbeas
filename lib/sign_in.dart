@@ -31,13 +31,14 @@ class _SignInPageState extends State<SignInPage> {
     Navigator.pushReplacementNamed(context, 'home');
   }
 
-  _getFirebaseUser(User user) async {
+  _getFirebaseUser(User? user) async {
     setState(() {
       _isLoading = false;
     });
+
     if (user != null) {
       await Prefs.saveUserId(user.uid);
-      Navigator.pushReplacementNamed(context, 'home');
+      Navigator.of(context).pushReplacementNamed('home');
     } else {
       Utils.fireToast("Chekc your email or password");
     }

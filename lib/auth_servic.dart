@@ -8,6 +8,11 @@ import 'package:flutter/material.dart';
 class Authservic {
   static final _auth = FirebaseAuth.instance;
 
+  static String currentUserId() {
+    final User? firebaseUser = _auth.currentUser;
+    return firebaseUser!.uid;
+  }
+
   static Future<User?> signInUser(
       BuildContext context, String email, String password) async {
     try {

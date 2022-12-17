@@ -39,6 +39,11 @@ dependencies:
   shared_preferences: ^2.0.15
   fluttertoast: ^8.1.1
   cloud_firestore: ^4.1.0
+  flutter_slidable: ^2.0.0
+  firebase_database: ^10.0.7
+  firebase_storage: ^11.0.8
+  flutter_secure_storage: ^7.0.1
+  platform_device_id: ^1.0.1
 
 dev_dependencies:
   flutter_test:
